@@ -1,71 +1,11 @@
-body {
-  height: 95vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-div {
-  border: 1px solid;
-  height: 400px;
-  width: 400px;
-  text-align: center;
-}
-input:nth-child(2) {
-  transform: translate(260px, -240px);
-  -webkit-transform: translate(260px, -240px);
-  -moz-transform: translate(260px, -240px);
-  -ms-transform: translate(260px, -240px);
-  -o-transform: translate(260px, -240px);
-}
-input:nth-child(4) {
-  transform: translate(-260px, 240px) rotate(180deg);
-  -webkit-transform: translate(-260px, 240px) rotate(180deg);
-  -moz-transform: translate(-260px, 240px) rotate(180deg);
-  -ms-transform: translate(-260px, 240px) rotate(180deg);
-  -o-transform: translate(-260px, 240px) rotate(180deg);
-}
-.t {
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-}
-.tt {
-  transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-}
-p {
-  width: 20px;
-}
-p:nth-child(1) {
-  transform: translate(15px, 5px);
-  -webkit-transform: translate(15px, 5px);
-  -moz-transform: translate(15px, 5px);
-  -ms-transform: translate(15px, 5px);
-  -o-transform: translate(15px, 5px);
-}
-p:nth-child(2) {
-  transform: translate(360px, -30px);
-  -webkit-transform: translate(360px, -30px);
-  -moz-transform: translate(360px, -30px);
-  -ms-transform: translate(360px, -30px);
-  -o-transform: translate(360px, -30px);
-}
-p:nth-child(3) {
-  transform: translate(360px, 280px);
-  -webkit-transform: translate(360px, 280px);
-  -moz-transform: translate(360px, 280px);
-  -ms-transform: translate(360px, 280px);
-  -o-transform: translate(360px, 280px);
-}
-p:nth-child(4) {
-  transform: translate(15px, 245px);
-  -webkit-transform: translate(15px, 245px);
-  -moz-transform: translate(15px, 245px);
-  -ms-transform: translate(15px, 245px);
-  -o-transform: translate(15px, 245px);
-}
+body {height: 95vh;display: flex;justify-content: center;align-items: center;}
+div {border: 1px solid;    height: 400px;    width: 400px;    text-align: center;}
+input:nth-child(2) {    transform: translate(260px, -240px);    -webkit-transform: translate(260px, -240px);    -moz-transform: translate(260px, -240px);    -ms-transform: translate(260px, -240px);    -o-transform: translate(260px, -240px);}
+input:nth-child(4) {transform: translate(-260px, 240px) rotate(180deg);    -webkit-transform: translate(-260px, 240px) rotate(180deg);    -moz-transform: translate(-260px, 240px) rotate(180deg);    -ms-transform: translate(-260px, 240px) rotate(180deg);    -o-transform: translate(-260px, 240px) rotate(180deg);}
+.t {transform: rotate(90deg);-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);}
+.tt {transform: rotate(270deg);-webkit-transform: rotate(270deg);-moz-transform: rotate(270deg);-ms-transform: rotate(270deg);-o-transform: rotate(270deg);}
+p {width: 20px;}
+p:nth-child(1) {transform: translate(15px,5px);    -webkit-transform: translate(15px,5px);    -moz-transform: translate(15px,5px);    -ms-transform: translate(15px,5px);    -o-transform: translate(15px,5px);}
+p:nth-child(2) {transform: translate(360px, -30px);    -webkit-transform: translate(360px, -30px);   -moz-transform: translate(360px, -30px);    -ms-transform: translate(360px, -30px);-o-transform: translate(360px, -30px);}
+p:nth-child(3) {transform: translate(360px, 280px);    -webkit-transform: translate(360px, 280px);    -moz-transform: translate(360px, 280px);    -ms-transform: translate(360px, 280px);    -o-transform: translate(360px, 280px);}
+p:nth-child(4){transform: translate(15px, 245px);-webkit-transform: translate(15px, 245px);-moz-transform: translate(15px, 245px);-ms-transform: translate(15px, 245px);-o-transform: translate(15px, 245px);}
